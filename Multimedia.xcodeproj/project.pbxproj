@@ -13,6 +13,7 @@
 		7DF8782023DF4F2A000AC809 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DF8781E23DF4F2A000AC809 /* Main.storyboard */; };
 		7DF8782223DF4F2B000AC809 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DF8782123DF4F2B000AC809 /* Assets.xcassets */; };
 		7DF8782523DF4F2B000AC809 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DF8782323DF4F2B000AC809 /* LaunchScreen.storyboard */; };
+		7DF8782D23DF536F000AC809 /* foto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7DF8782C23DF536F000AC809 /* foto.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		7DF8782123DF4F2B000AC809 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7DF8782423DF4F2B000AC809 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7DF8782623DF4F2B000AC809 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DF8782C23DF536F000AC809 /* foto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = foto.jpg; path = ../../../Downloads/foto.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		7DF8781723DF4F2A000AC809 /* Multimedia */ = {
 			isa = PBXGroup;
 			children = (
+				7DF8782C23DF536F000AC809 /* foto.jpg */,
 				7DF8781823DF4F2A000AC809 /* AppDelegate.swift */,
 				7DF8781A23DF4F2A000AC809 /* SceneDelegate.swift */,
 				7DF8781C23DF4F2A000AC809 /* ViewController.swift */,
@@ -128,6 +131,7 @@
 				7DF8782523DF4F2B000AC809 /* LaunchScreen.storyboard in Resources */,
 				7DF8782223DF4F2B000AC809 /* Assets.xcassets in Resources */,
 				7DF8782023DF4F2A000AC809 /* Main.storyboard in Resources */,
+				7DF8782D23DF536F000AC809 /* foto.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
