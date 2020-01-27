@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D5AC23823DF745000924C25 /* AnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5AC23723DF745000924C25 /* AnimationViewController.swift */; };
+		7D5AC24023DF778F00924C25 /* CaratulaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5AC23F23DF778F00924C25 /* CaratulaViewController.swift */; };
 		7DF8781923DF4F2A000AC809 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF8781823DF4F2A000AC809 /* AppDelegate.swift */; };
 		7DF8781B23DF4F2A000AC809 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF8781A23DF4F2A000AC809 /* SceneDelegate.swift */; };
 		7DF8781D23DF4F2A000AC809 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF8781C23DF4F2A000AC809 /* ViewController.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7D5AC23723DF745000924C25 /* AnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationViewController.swift; sourceTree = "<group>"; };
+		7D5AC23F23DF778F00924C25 /* CaratulaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaratulaViewController.swift; sourceTree = "<group>"; };
 		7DF8781523DF4F2A000AC809 /* Multimedia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Multimedia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DF8781823DF4F2A000AC809 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7DF8781A23DF4F2A000AC809 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +70,8 @@
 				7DF8782123DF4F2B000AC809 /* Assets.xcassets */,
 				7DF8782323DF4F2B000AC809 /* LaunchScreen.storyboard */,
 				7DF8782623DF4F2B000AC809 /* Info.plist */,
+				7D5AC23723DF745000924C25 /* AnimationViewController.swift */,
+				7D5AC23F23DF778F00924C25 /* CaratulaViewController.swift */,
 			);
 			path = Multimedia;
 			sourceTree = "<group>";
@@ -143,8 +149,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				7DF8781D23DF4F2A000AC809 /* ViewController.swift in Sources */,
+				7D5AC24023DF778F00924C25 /* CaratulaViewController.swift in Sources */,
 				7DF8781923DF4F2A000AC809 /* AppDelegate.swift in Sources */,
 				7DF8781B23DF4F2A000AC809 /* SceneDelegate.swift in Sources */,
+				7D5AC23823DF745000924C25 /* AnimationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

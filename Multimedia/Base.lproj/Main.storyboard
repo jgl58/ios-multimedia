@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="rMV-jk-YeD">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
@@ -7,7 +7,86 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Item 2-->
+        <scene sceneID="IzH-Gc-KJA">
+            <objects>
+                <viewController id="apy-i7-NBo" customClass="AnimationViewController" customModule="Multimedia" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Cea-z8-psB">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PiE-gR-IxR">
+                                <rect key="frame" x="49" y="108" width="59" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Ven aqui"/>
+                                <connections>
+                                    <action selector="actionMoverAqui:" destination="apy-i7-NBo" eventType="touchUpInside" id="L1e-y2-ISj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tlC-Tf-D5Z">
+                                <rect key="frame" x="306" y="108" width="59" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Ven aqui"/>
+                                <connections>
+                                    <action selector="actionMoverAqui:" destination="apy-i7-NBo" eventType="touchUpInside" id="WeP-O9-jeF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="je9-b2-wIa">
+                                <rect key="frame" x="306" y="497" width="59" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Ven aqui"/>
+                                <connections>
+                                    <action selector="actionMoverAqui:" destination="apy-i7-NBo" eventType="touchUpInside" id="fbt-af-Q3z"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AaU-cd-Q6c">
+                                <rect key="frame" x="49" y="497" width="59" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Ven aqui"/>
+                                <connections>
+                                    <action selector="actionMoverAqui:" destination="apy-i7-NBo" eventType="touchUpInside" id="4O1-w2-6Ap"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K7M-iX-E6t">
+                                <rect key="frame" x="179" y="497" width="58" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Caratula"/>
+                                <connections>
+                                    <segue destination="a0y-l6-JeS" kind="show" id="SLy-ab-4Lg"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="aed-ua-IPd"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 2" id="RhD-yJ-Oyr"/>
+                    <connections>
+                        <outlet property="btVenAqui" destination="PiE-gR-IxR" id="Z9S-mk-QYo"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aq3-bl-7s3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-399" y="563"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="mP9-xT-PCx">
+            <objects>
+                <tabBarController id="rMV-jk-YeD" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="czY-dT-kkq">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="apy-i7-NBo" kind="relationship" relationship="viewControllers" id="Fms-sQ-9c4"/>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="iu3-Lp-jMU"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZGR-4H-fKk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1320" y="239"/>
+        </scene>
+        <!--Item-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Multimedia" customModuleProvider="target" sceneMemberID="viewController">
@@ -19,10 +98,10 @@
                                 <rect key="frame" x="61" y="135" width="292" height="190"/>
                             </imageView>
                             <glkView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" enableSetNeedsDisplay="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j9m-da-zXu">
-                                <rect key="frame" x="61" y="500" width="292" height="196"/>
+                                <rect key="frame" x="61" y="500" width="292" height="147"/>
                             </glkView>
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="3y1-0Z-GrW">
-                                <rect key="frame" x="59" y="704" width="296" height="30"/>
+                                <rect key="frame" x="59" y="655" width="296" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="29" id="7Mp-Wf-9Kk"/>
                                 </constraints>
@@ -68,6 +147,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="MdY-ce-Xlg"/>
                     <connections>
                         <outlet property="glkView" destination="j9m-da-zXu" id="TWP-Wq-2kE"/>
                         <outlet property="imageView" destination="uO8-hC-rBo" id="7JV-iw-lLj"/>
@@ -75,7 +155,70 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="137.68115942028987" y="115.84821428571428"/>
+            <point key="canvasLocation" x="-472" y="-126"/>
+        </scene>
+        <!--Caratula View Controller-->
+        <scene sceneID="WL7-X3-egw">
+            <objects>
+                <viewController id="a0y-l6-JeS" customClass="CaratulaViewController" customModule="animacion_gym_swift" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ZzJ-wi-yjV"/>
+                        <viewControllerLayoutGuide type="bottom" id="04z-Vc-BPP"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Brg-96-nUy">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ykk-g7-Icj">
+                                <rect key="frame" x="0.0" y="751" width="414" height="49"/>
+                                <items>
+                                    <barButtonItem title="Cerrar" id="NK0-In-hVY">
+                                        <connections>
+                                            <action selector="goBackMain:" destination="a0y-l6-JeS" id="nso-RZ-dtw"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Zoom out" id="p8t-RU-HjF">
+                                        <connections>
+                                            <action selector="zoomOutAction:" destination="a0y-l6-JeS" id="5iM-6M-LGI"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Zoom in" id="0fr-42-8cx">
+                                        <connections>
+                                            <action selector="zoomInAction:" destination="a0y-l6-JeS" id="x5n-uT-Vgn"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Girar" id="63K-2u-cBn">
+                                        <connections>
+                                            <action selector="girarAction:" destination="a0y-l6-JeS" id="3iR-ft-dZ0"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Rz4-4L-9bB">
+                                <rect key="frame" x="47" y="142" width="320" height="558"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Rz4-4L-9bB" firstAttribute="leading" secondItem="Brg-96-nUy" secondAttribute="leadingMargin" constant="27" id="7A1-3W-VN3"/>
+                            <constraint firstItem="Rz4-4L-9bB" firstAttribute="top" secondItem="ZzJ-wi-yjV" secondAttribute="bottom" constant="142" id="EIK-9q-CpG"/>
+                            <constraint firstItem="04z-Vc-BPP" firstAttribute="top" secondItem="ykk-g7-Icj" secondAttribute="bottom" constant="8" id="Jet-LD-ysa"/>
+                            <constraint firstItem="ykk-g7-Icj" firstAttribute="leading" secondItem="Brg-96-nUy" secondAttribute="leading" id="YJC-45-yZP"/>
+                            <constraint firstItem="Rz4-4L-9bB" firstAttribute="centerY" secondItem="Brg-96-nUy" secondAttribute="centerY" id="jba-yP-bpd"/>
+                            <constraint firstItem="Rz4-4L-9bB" firstAttribute="centerX" secondItem="ykk-g7-Icj" secondAttribute="centerX" id="n0e-4V-tNE"/>
+                            <constraint firstAttribute="trailing" secondItem="ykk-g7-Icj" secondAttribute="trailing" id="tp6-f5-GZU"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Ncg-hR-q6W"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="8UO-LX-5br"/>
+                    <connections>
+                        <outlet property="vistaCaratula" destination="Rz4-4L-9bB" id="pJg-Wh-vL9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="F6X-On-lyO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="575" y="563"/>
         </scene>
     </scenes>
     <resources>
