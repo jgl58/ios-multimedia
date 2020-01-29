@@ -7,7 +7,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Animacion-->
+        <!--Animation View Controller-->
         <scene sceneID="IzH-Gc-KJA">
             <objects>
                 <viewController id="apy-i7-NBo" customClass="AnimationViewController" customModule="Multimedia" customModuleProvider="target" sceneMemberID="viewController">
@@ -59,7 +59,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="aed-ua-IPd"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Animacion" id="RhD-yJ-Oyr"/>
+                    <tabBarItem key="tabBarItem" systemItem="featured" id="RhD-yJ-Oyr"/>
                     <connections>
                         <outlet property="btVenAqui" destination="PiE-gR-IxR" id="Z9S-mk-QYo"/>
                     </connections>
@@ -68,7 +68,7 @@
             </objects>
             <point key="canvasLocation" x="-399" y="563"/>
         </scene>
-        <!--Reproductor-->
+        <!--Reproductor View Controller-->
         <scene sceneID="kcS-bM-MYg">
             <objects>
                 <viewController id="vKm-m4-BSs" customClass="ReproductorViewController" customModule="Multimedia" customModuleProvider="target" sceneMemberID="viewController">
@@ -88,7 +88,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="ZYD-4f-Bec"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Reproductor" id="ck1-Jy-52L"/>
+                    <tabBarItem key="tabBarItem" systemItem="featured" id="ck1-Jy-52L"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Zcf-wQ-Bn0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -113,7 +113,7 @@
             </objects>
             <point key="canvasLocation" x="-1320" y="239"/>
         </scene>
-        <!--Filtros-->
+        <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Multimedia" customModuleProvider="target" sceneMemberID="viewController">
@@ -174,7 +174,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Filtros" id="MdY-ce-Xlg"/>
+                    <tabBarItem key="tabBarItem" systemItem="featured" id="MdY-ce-Xlg"/>
                     <connections>
                         <outlet property="glkView" destination="j9m-da-zXu" id="TWP-Wq-2kE"/>
                         <outlet property="imageView" destination="uO8-hC-rBo" id="7JV-iw-lLj"/>
